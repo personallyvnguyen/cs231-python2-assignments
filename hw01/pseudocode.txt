@@ -1,0 +1,26 @@
+pig
+  gameActive state
+  playerTurn state (0 or 1)
+  gameData = []
+    0: {
+      name
+      score
+    }
+  ]
+  array of potential choice weights
+  
+  get name1, name2, targetScore
+
+  while gameActive is true
+    get input
+    if pass, skip, else roll
+
+    get a weight result
+    switch based on result
+      print result of roll
+      update points
+    
+    check against target score
+      if score hit, run winMessage and gameActive is false 
+
+  winMessage
